@@ -1,0 +1,11 @@
+server:
+  port: 8080
+
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka #要和eureka注册服务的路径保持一致
+spring:
+  application:
+    name: feign
